@@ -1,150 +1,169 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=220&section=header&text=AI%20Healthcare%20Nexus&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:00f3ff&height=250&section=header&text=AI%20Healthcare%20Assistant&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" alt="Header" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=26&pause=1000&color=00F3FF&center=true&vCenter=true&width=800&lines=Welcome+to+the+Future+of+Healthcare;Your+Personal+AI+Medical+Companion;Powered+by+RAG%2C+Gemini+%26+Vector+Search;Seamless+Intelligence+at+Your+Fingertips" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=24&pause=1000&color=00F3FF&center=true&vCenter=true&width=800&lines=Intelligent+Medical+Comprehension;Powered+by+RAG+%26+Gemini+AI;Semantic+Prescription+Search;Personalized+Health+%26+Diet+Insights" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-00F3FF?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-00C6FF?style=for-the-badge&logo=nodedotjs&logoColor=black" alt="Node.js"></a>
-  <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB"></a>
-  <a href="https://www.pinecone.io/"><img src="https://img.shields.io/badge/Vector_DB-Pinecone-00F3FF?style=for-the-badge&logo=pinecone&logoColor=black" alt="Pinecone"></a>
-  <a href="https://deepmind.google/technologies/gemini/"><img src="https://img.shields.io/badge/Neural_Engine-Gemini_AI-FF007F?style=for-the-badge&logo=google" alt="Gemini"></a>
+  <a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" /></a>
 </p>
 
 ---
 
-## 🌌 The Vision
+## 🌌 Overview
 
-The **AI Healthcare Assistant** envisions a world where your medical history isn't just a physical file, but an intelligent, interactive companion. Operating on a synergistic monorepo architecture, this application seamlessly unites a React-driven futuristic interface with a hyper-optimized Node.js/Express networking layer. Powered by Google Gemini and Pinecone Vector computations, it provides deeply personalized, instant medical insights.
-
-<br>
-
-<div align="center">
-  <img src="https://i.pinimg.com/originals/c7/2b/33/c72b33dc78160fb0ee6ab28ea0c1f609.gif" width="600" style="border-radius: 12px; border: 2px solid #00F3FF; box-shadow: 0 0 20px #00F3FF;" alt="Futuristic AI Brain">
-</div>
-
-<br>
-
-## 🛸 Quantum Features
-
-<table align="center">
-  <tr>
-    <td width="50%">
-      <h3>📄 Neural OCR Upload</h3>
-      <p>Seamlessly digitize prescriptions. Our AI vision nodes instantly extract and structure medical data: Doctor Information, Medications, Dosages, and Notes.</p>
-    </td>
-    <td width="50%">
-      <h3>🧠 RAG Chat Matrix</h3>
-      <p>Initiate a dialogue with an AI entity that fully comprehends your historical telemetry. Uses <b>Retrieval-Augmented Generation</b> for maximum contextual accuracy.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🔍 Semantic Vector Search</h3>
-      <p>Search via natural language. Hugging Face embeddings mapped into Pinecone’s high-dimensional space locate medical records instantly.</p>
-    </td>
-    <td width="50%">
-      <h3>📊 Biometric Dashboard</h3>
-      <p>Monitor your anatomical analytics. Interactive Recharts visualize data trends, prescription frequencies, and vital health metrics over time.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🚨 Predictive Alert Node</h3>
-      <p>An omnipresent background worker continuously evaluates your medical timeline to intercept and flag concerning patterns like extreme dosages or drug overlaps.</p>
-    </td>
-    <td width="50%">
-      <h3>🥗 Bio-Gen Diet Synth</h3>
-      <p>Leverages your diagnostic history as context to forge highly tailored, scientifically structured dietary and lifestyle regimens based on specific user objectives.</p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
+The **AI-Powered Personal Healthcare Assistant** is a modern, full-stack application bridging the gap between complex medical documents and patient comprehension. By leveraging **Retrieval-Augmented Generation (RAG)**, advanced **OCR**, and **vector similarity search**, this platform digitizes medical histories and provides highly contextual, instant health intelligence.
 
 ---
 
-## 🔧 Core Mechanics
+## ✨ Features
 
-### 🌐 Client Interface (Frontend)
-- **Renderer**: React.js ⚛️ & Vite ⚡
-- **Styling Matrix**: Tailwind CSS for high-fidelity UI
-- **Data Visualizer**: Recharts 📈
+- **🔐 Secure Authentication**: Robust JWT & bcrypt-based user verification.
+- **📄 AI-Powered OCR**: Automatically uploads (via Cloudinary) and transcribes physical prescriptions using **Gemini Vision**.
+- **🧠 Intelligent Parsing**: Structures raw medical text into standardized formats (Medicines, Dosages, Doctor Notes) using **Gemini API**.
+- **💾 Dual-Database Architecture**: Stores relational data in **MongoDB** while maintaining high-dimensional embeddings in **Pinecone**.
+- **🤖 RAG Healthcare Chatbot**: Have natural conversations with an empathetic AI that "remembers" your exact medical history.
+- **🔍 Semantic Search**: Instantly locate past medications or conditions using vector similarity (powered by **Hugging Face** embeddings).
+- **📊 Health Insights Dashboard**: Interactive visualizations of your diagnostic history, top doctors, and frequent medications.
+- **🚨 Smart Alerts System**: An autonomous background analyzer that detects concerning medical patterns (e.g., frequent antibiotics).
+- **🥗 Bio-Gen Diet Synth**: Dynamically generates personalized, safe dietary plans based strictly on your historical prescriptions and health goals.
 
-### ⚙️ Server Grid (Backend)
-- **Neural Hub**: Node.js & Express.js
-- **Memory Bank**: MongoDB Cluster (Mongoose)
-- **Asset Vault**: Cloudinary ☁️
-- **Security Checkpoint**: JWT & bcrypt
+---
 
-### 🤖 Machine Intelligence Layer
-- **Deep Computation**: Google Gemini (`gemini-2.5-flash`)
-- **Embedding Matrix**: Hugging Face (`sentence-transformers/all-MiniLM-L6-v2`)
-- **Vector Space**: Pinecone DB
+## 🏗️ System Architecture
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
+```mermaid
+graph TD;
+    User[User / Client UI] -->|Upload Prescription| API[Express API Node]
+    API -->|Image| CDN[Cloudinary]
+    API -->|OCR & Parse| Gemini[Google Gemini Vision]
+    Gemini --> StructuredData[Structured Medical JSON]
+    StructuredData --> DB[(MongoDB Database)]
+    StructuredData --> HF[Hugging Face Embeddings]
+    HF --> VectorDb[(Pinecone Vector DB)]
+    User -->|Ask Question| Chat[RAG Chat Controller]
+    Chat -->|1. Vector Search Query| VectorDb
+    VectorDb -->|2. Return Top Matches| Chat
+    Chat -->|3. Fetch Details| DB
+    Chat -->|4. Prompt w/ Context| LLM[Google Gemini API]
+    LLM --> Response[Personalized Answer]
+    Response --> User
+```
 
-## 🚀 Initialization Sequence
+*(Note: The diagram above illustrates the Retrieval-Augmented Generation pipeline implemented in this project: Upload -> OCR -> Embedding -> Vector Storage -> Contextual Retrieval -> AI Generation).*
 
-### 1. Establish Uplink (Clone Repository)
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | React.js, Tailwind CSS, Vite, Recharts |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB, Mongoose |
+| **Vector DB** | Pinecone |
+| **AI / Machine Learning** | Google Gemini API (Vision & Text), Hugging Face (`all-MiniLM-L6-v2`) |
+| **Cloud / Storage** | Cloudinary |
+| **Security** | JWT (JSON Web Tokens), bcrypt |
+
+---
+
+## ⚙️ Environment Variables
+
+To run this project, configure the following environment variables in your backend `.env` file:
+
+```env
+# Server & Database
+PORT=5001
+MONGO_URI=your_mongodb_cluster_url
+JWT_SECRET=your_jwt_secret_key
+
+# Cloudinary (Image Storage)
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_api_key
+CLOUD_API_SECRET=your_cloudinary_api_secret
+
+# Google Gemini (AI & OCR)
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_MODEL=gemini-2.5-flash
+
+# Pinecone & Hugging Face (Vector Search & Embeddings)
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_INDEX_NAME=healthcare-rag
+HF_API_KEY=your_huggingface_api_key
+```
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Sainath91106/AI-Health_Assistant.git
 cd AIHealthcare
 ```
 
-### 2. Ignite Server Grid (Backend)
+### 2. Backend Initialization
 ```bash
 cd healthcare-ai-backend
 npm install
-```
-*Inject Environment Variables (.env):*
-```env
-PORT=5001
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-
-CLOUD_NAME=your_cloudinary_name
-CLOUD_API_KEY=your_cloudinary_api_key
-CLOUD_API_SECRET=your_cloudinary_api_secret
-
-GEMINI_API_KEY=your_gemini_api_key
-GEMINI_MODEL=gemini-2.5-flash
-
-PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_INDEX_NAME=healthcare-rag
-
-HF_API_KEY=your_huggingface_api_key
-```
-*Execute sequence:*
-```bash
+# Ensure your .env is created
 npm run dev
 ```
 
-### 3. Deploy Client Interface (Frontend)
+### 3. Frontend Initialization
+Open a new terminal window:
 ```bash
 cd "AIHealthcare Frontend"
 npm install
-```
-*Execute sequence:*
-```bash
 npm run dev
 ```
 
+---
+
+## 📡 API Endpoint Summary
+
+| Module | Endpoint | Method | Description |
+| :--- | :--- | :--- | :--- |
+| **Auth** | `/api/auth/register` | `POST` | Register a new user |
+| **Auth** | `/api/auth/login` | `POST` | Authenticate and issue JWT |
+| **Prescriptions** | `/api/prescriptions/upload` | `POST` | Upload, OCR parse, & vectorize records |
+| **Prescriptions** | `/api/prescriptions` | `GET` | Retrieve patient history |
+| **Chat** | `/api/chat/message` | `POST` | Interact with the RAG-powered chatbot |
+| **Search** | `/api/search` | `POST` | Perform semantic Pinecone queries |
+| **Dashboard** | `/api/dashboard` | `GET` | Fetch aggregated biometric / stats |
+| **Alerts** | `/api/alerts` | `GET` | Execute pattern-evaluation for warnings |
+| **Diet** | `/api/diet/generate` | `POST` | Synthesize customized diet regimens |
+
+---
+
+## 🌍 Deployment
+
+*   **Backend (Render):** Set the build command to `npm install` and start command to `node server.js`. Ensure all environment variables are mapped in the Render dashboard. Update the `VITE_API_BASE_URL` in the frontend before deploying.
+*   **Frontend (Vercel):** Connect the GitHub repository directly to Vercel. Vercel will auto-detect Vite and deploy the React build output.
+
+---
+
+## 🔮 Future Improvements
+
+-   **Wearable Integration:** Sync with external step and heart-rate APIs for real-time tracking.
+-   **Multi-Lingual Support:** Expand the Gemini prompting architecture to support inclusive, native-language diagnostic readouts.
+-   **Exportable Reports:** One-click PDF compilation of health histories for seamless doctor visits.
+-   **Automated Reminders:** SMS or Push Notification chron-jobs utilizing Node-Cron and Twilio.
+
+---
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <p><b>Disclaimer:</b> This AI Assistant is designed for informational and organizational purposes. It is <b>not</b> a replacement for professional medical advice, diagnosis, or treatment.</p>
 </div>
 
 <div align="center">
-  <i>Developed with Cyberpunk Precision by <a href="https://github.com/Sainath91106" style="color:#00F3FF;">Sainath</a></i>
+  <i>Architected by <a href="https://github.com/Sainath91106" style="color:#00F3FF;">Sainath</a></i>
 </div>
