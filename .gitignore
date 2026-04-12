@@ -1,0 +1,7 @@
+# Ignore .env files
+.env
+AIHealthcare Frontend/node_modules
+healthcare-ai-backend/node_modules
+healthcare-ai-backend/.env
+AIHealthcare Frontend/.env
+healthcare-ai-backend/config/vision-key.json

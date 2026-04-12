@@ -1,0 +1,92 @@
+{
+  "info": {
+    "_postman_id": "e1e1e1e1-1234-5678-9101-abcdefabcdef",
+    "name": "Healthcare AI Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"test123\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/register",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "auth", "register"]
+        }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"test123\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/login",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "auth", "login"]
+        }
+      }
+    },
+    {
+      "name": "Upload Prescription (OCR & JSON)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "file", "type": "file", "src": "" }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/prescriptions/upload",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "prescriptions", "upload"]
+        }
+      }
+    },
+    {
+      "name": "Prescription Chatbot",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Can I take these medicines after food?\",\n  \"prescriptionData\": {\n    \"medicines\": [\n      {\n        \"name\": \"Paracetamol\",\n        \"dosage\": \"500mg\",\n        \"timing\": \"morning\",\n        \"duration\": \"5 days\"\n      }\n    ],\n    \"doctor\": \"Dr. Smith\",\n    \"hospital\": \"City Hospital\",\n    \"date\": \"2026-04-10\",\n    \"notes\": \"Take with water\"\n  },\n  \"chatHistory\": []\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/prescriptions/chatbot",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "prescriptions", "chatbot"]
+        }
+      }
+    }
+  ]
+}
