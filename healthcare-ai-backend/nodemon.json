@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    ".env",
+    "controllers",
+    "routes",
+    "services",
+    "models",
+    "config",
+    "middleware"
+  ],
+  "ext": "js,json,env",
+  "ignore": [
+    "tmp/**",
+    "tmp/processed-images/**",
+    "*.log",
+    "err.txt",
+    "node_modules/**"
+  ]
+}

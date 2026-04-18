@@ -55,29 +55,30 @@ ${goal}
 Recent Medical History (from prescriptions):
 ${medicalContext}
 
-Please provide a comprehensive and structured diet plan. The plan should be easy to follow, practical, and tailored to the user's health goal and medical history.
+Please provide a comprehensive and structured daily meal plan. Instead of just listing all possible foods at once, categorize the foods strictly by the specific time of day they should be consumed.
 
 Your response MUST include the following sections, with detailed, actionable advice in each:
 
-1.  **Foods to Eat**:
-    *   List specific, healthy, and readily available food items (e.g., "Brown Rice," "Spinach," "Salmon," "Almonds").
-    *   For each food, briefly explain *why* it's beneficial for the user's context (e.g., "rich in fiber," "high in omega-3 fatty acids").
-    *   Group foods into categories like Fruits, Vegetables, Proteins, Grains, and Healthy Fats.
+1.  **Meal-by-Meal Diet Plan**:
+    *   **Breakfast**: Suggest specific healthy foods to eat in the morning and explain *why*.
+    *   **Mid-Morning Snack**: Suggest light and healthy options.
+    *   **Lunch**: Suggest a balanced meal and specific food items.
+    *   **Evening Snack**: Suggest healthy alternatives to junk food.
+    *   **Dinner**: Suggest a light, nutritious meal and specific food items.
+    *   *Note: For each meal, explicitly list the exact foods to take at that respective time rather than an overall list.*
 
-2.  **Foods to Avoid**:
-    *   List specific food items and categories to limit or avoid (e.g., "Sugary Drinks," "Processed Snacks," "Fried Foods," "Excessive Red Meat").
-    *   For each, explain *why* it should be avoided (e.g., "high in empty calories," "can increase inflammation").
+2.  **Foods to Strictly Avoid**:
+    *   List specific food items and categories to avoid (e.g., "Sugary Drinks", "Fried Foods").
+    *   For each, explain *why* it should be avoided based on their goal/history.
 
 3.  **Healthy Food Habits & Lifestyle**:
-    *   **Meal Plan Example**: Provide a sample one-day meal plan (Breakfast, Lunch, Dinner, Snacks) using the recommended foods.
-    *   **Meal Timing**: Suggest ideal times for meals to maintain energy and metabolism.
+    *   **Meal Timing**: Suggest ideal times for each meal to maintain energy and metabolism.
     *   **Hydration**: Specify the recommended daily water intake and suggest other healthy fluids.
     *   **Portion Control**: Give simple, practical tips for managing portion sizes.
-    *   **Lifestyle Integration**: Include advice on sleep, gentle exercise, and stress management that complements the diet.
 
 4.  **Important Precautions**:
     *   Remind the user that this is a general guide and not a medical prescription.
-    *   Clearly state when they should consult their doctor or a registered dietitian, especially before making significant dietary changes.
+    *   Clearly state when they should consult their doctor or a registered dietitian.
 
 Format the entire response in clear, well-structured Markdown with headings and bullet points.
 `;
