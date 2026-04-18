@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { formatDate, parseStructuredData, safeArray } from '../utils/helpers';
 
-function PrescriptionCard({ prescription, expandable = true }) {
+function PrescriptionCard({ prescription, expandable = true, onDelete }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const structuredData = useMemo(
@@ -21,15 +21,22 @@ function PrescriptionCard({ prescription, expandable = true }) {
           <p className="mt-1 text-xs text-slate-500">Uploaded {formatDate(prescription?.createdAt)}</p>
         </div>
 
-        {expandable ? (
-          <button
-            type="button"
-            className="text-xs font-medium text-medicalBlue"
-            onClick={() => setIsExpanded((prev) => !prev)}
-          >
-            {isExpanded ? 'Collapse' : 'Expand'}
-          </button>
-        ) : null}
+        <div className="flex items-center gap-3">
+          {expandable ? (
+            <button
+              type="button"
+              className="text-xs font-medium text-medicalBlue"
+              onClick={() => setIsExpanded((prev) => !prev)}
+            >
+              {isExpanded ? 'Collapse' : 'Expand'}
+            </button>
+          ) : null}
+          {onDelete ? (
+            <button type="button" className="text-xs font-medium text-red-600" onClick={onDelete}>
+              Delete
+            </button>
+          ) : null}
+        </div>
       </div>
 
       <div className="mt-4 grid gap-3 text-sm text-slate-700 sm:grid-cols-3">
@@ -57,7 +64,8 @@ function PrescriptionCard({ prescription, expandable = true }) {
                   <div key={`${medicine.name}-${index}`} className="rounded-lg bg-blue-50/50 p-3 text-sm">
                     <p className="font-medium text-slate-900">{medicine.name || 'Unnamed medicine'}</p>
                     <p className="text-xs text-slate-600">
-                      {medicine.dosage || 'Dosage N/A'} | {medicine.frequency || 'Frequency N/A'} | {medicine.duration || 'Duration N/A'}
+                      {medicine.dosage || 'Dosage N/A'} | {medicine.frequency || 'Frequency N/A'} |{' '}
+                      {medicine.duration || 'Duration N/A'}
                     </p>
                   </div>
                 ))}

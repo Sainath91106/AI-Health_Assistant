@@ -18,3 +18,8 @@ export const getUserPrescriptions = async (userId) => {
   const response = await apiClient.get(`/api/prescriptions/user/${userId}`);
   return response.data;
 };
+
+export const deletePrescription = async (prescriptionId) => {
+  const response = await apiClient.delete(`/api/prescriptions/${prescriptionId}`);
+  return response.data;
+};

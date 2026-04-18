@@ -4,7 +4,7 @@ import PrescriptionCard from '../components/PrescriptionCard';
 import Loader from '../components/Loader';
 import EmptyState from '../components/common/EmptyState';
 import useAuth from '../hooks/useAuth';
-import { getUserPrescriptions } from '../services/prescriptionService';
+import { getUserPrescriptions, deletePrescription } from '../services/prescriptionService';
 import { fallbackPrescriptions } from '../utils/fallbackData';
 import { extractErrorMessage } from '../utils/helpers';
 
@@ -54,6 +54,21 @@ function PrescriptionHistoryPage() {
     };
   }, [user?._id]);
 
+  const handleDelete = async (prescriptionId) => {
+    const originalHistory = [...history];
+    const optimisticHistory = history.filter((p) => p._id !== prescriptionId);
+    setHistory(optimisticHistory);
+    toast.success('Prescription deleted');
+
+    try {
+      await deletePrescription(prescriptionId);
+    } catch (err) {
+      const message = extractErrorMessage(err, 'Failed to delete prescription');
+      toast.error(message);
+      setHistory(originalHistory);
+    }
+  };
+
   return (
     <section className="space-y-5">
       <div>
@@ -81,7 +96,7 @@ function PrescriptionHistoryPage() {
           {history.map((prescription) => (
             <div key={prescription._id} className="relative">
               <span className="absolute -left-[29px] top-6 h-3 w-3 rounded-full border-2 border-white bg-medicalBlue" />
-              <PrescriptionCard prescription={prescription} expandable />
+              <PrescriptionCard prescription={prescription} expandable onDelete={() => handleDelete(prescription._id)} />
             </div>
           ))}
         </div>
