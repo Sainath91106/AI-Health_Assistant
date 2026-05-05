@@ -170,11 +170,11 @@ npm run dev
 
 This project is brought to you by our dedicated team:
 
-*   **K Sainath Naik** (Team Lead)
-*   **K Gnansree** (Team Member)
-*   **M Adi Lakshmi** (Team Member)
-*   **N Akileswar Reddy** (Team Member)
-*   **Ch Muktesh Naidu** (Team Member)
+*   **K Sainath Naik** 
+*   **K Gnansree** 
+*   **M Adi Lakshmi** 
+*   **N Akileswar Reddy** 
+*   **Ch Muktesh Naidu** 
 
 <div align="center">
   <i>Architected by <a href="https://github.com/Sainath91106" style="color:#00F3FF;">Sainath</a> and Team</i>
