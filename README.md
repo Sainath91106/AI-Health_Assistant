@@ -164,6 +164,18 @@ npm run dev
   <p><b>Disclaimer:</b> This AI Assistant is designed for informational and organizational purposes. It is <b>not</b> a replacement for professional medical advice, diagnosis, or treatment.</p>
 </div>
 
+---
+
+## 👥 Contributors
+
+This project is brought to you by our dedicated team:
+
+*   **K Sainath Naik** (Team Lead)
+*   **K Gnansree** (Team Member)
+*   **M Adi Lakshmi** (Team Member)
+*   **N Akileswar Reddy** (Team Member)
+*   **Ch Muktesh Naidu** (Team Member)
+
 <div align="center">
-  <i>Architected by <a href="https://github.com/Sainath91106" style="color:#00F3FF;">Sainath</a></i>
+  <i>Architected by <a href="https://github.com/Sainath91106" style="color:#00F3FF;">Sainath</a> and Team</i>
 </div>
